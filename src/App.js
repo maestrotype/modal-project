@@ -14,10 +14,11 @@ function App() {
         Открыть модальное окно
       </button>
 
-      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-        <h2 className="text-xl font-bold">Привет!</h2>
-        <p className="mt-2">Это модальное окно.</p>
+      <Modal isOpen={isOpen} onClose={() => setIsOpen(false)} size="large">
+        <h2 className="text-xl font-bold">Большая модалка!</h2>
+        <p className="mt-2">Теперь поддерживаются разные размеры.</p>
       </Modal>
+
     </div>
   );
 }
