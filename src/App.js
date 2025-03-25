@@ -16,10 +16,6 @@ function App() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 dark:bg-gray-900 text-black dark:text-white transition-colors">
-      <div className="bg-yellow-100 dark:bg-yellow-800 p-6 rounded-xl shadow-xl">
-        Проверка Tailwind
-      </div>
-
       <div className="flex justify-between w-full max-w-md mb-6">
         <button
           onClick={() => setDarkMode(!darkMode)}
