@@ -73,7 +73,7 @@ const Modal = ({
         initial="hidden"
         animate="visible"
         exit="exit"
-        className={`${bg} ${darkBg} p-6 rounded-xl shadow-xl ${sizeClasses[size]}`}
+        className={`modal-box ${bg} ${darkBg} ${sizeClasses[size]}`}
         onClick={(e) => e.stopPropagation()}
       >
         {showCloseButton && (

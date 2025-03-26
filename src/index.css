@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.modal-container {
+    @apply p-6 shadow-2xl rounded-2xl border border-gray-200 bg-white dark:bg-zinc-900;
+  }
+
+  @layer components {
+    .modal-box {
+      @apply bg-white dark:bg-gray-800 text-black dark:text-white p-6 rounded-2xl shadow-2xl border border-gray-200;
+    }
+  }
