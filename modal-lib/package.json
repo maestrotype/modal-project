@@ -1,8 +1,13 @@
 {
-  "name": "modal-lib",
+  "name": "modal-lib-by-andrii-danichkin",
   "version": "1.0.0",
   "main": "index.js",
   "style": "index.css",
+  "files": ["Modal.js", "index.js", "index.css"],
+  "keywords": ["modal", "react", "tailwind", "component"],
+  "author": "andrii-danichkin",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "framer-motion": "^10.16.1",
     "react": "^18.2.0"
