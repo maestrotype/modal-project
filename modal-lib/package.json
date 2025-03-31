@@ -3,7 +3,7 @@
   "version": "1.0.3",
   "main": "index.js",
   "style": "index.css",
-  "files": ["Modal.js", "index.js", "index.css"],
+  "files": ["Modal.jsx", "index.js", "index.css"],
   "keywords": ["modal", "react", "tailwind", "component"],
   "author": "andrii-danichkin",
   "license": "MIT",
