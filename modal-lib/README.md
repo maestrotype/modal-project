@@ -1,5 +1,9 @@
 # modal-lib
 
+[![npm version](https://img.shields.io/npm/v/smart-modal-react.svg)](https://www.npmjs.com/package/smart-modal-react)
+[![license](https://img.shields.io/npm/l/smart-modal-react.svg)](https://github.com/maestrotype/modal-lib/blob/main/LICENSE)
+[![size](https://img.shields.io/bundlephobia/min/smart-modal-react)](https://bundlephobia.com/package/smart-modal-react)
+
 A customizable modal component for React with smooth animations and Tailwind CSS styling.
 
 ## ✨ Features
@@ -14,14 +18,14 @@ A customizable modal component for React with smooth animations and Tailwind CSS
 ## 🚀 Installation
 
 ```bash
-npm install modal-lib
+npm install smart-modal-react
 ```
 
 ## 📦 Usage
 
 ```jsx
-import Modal from 'modal-lib'
-import 'modal-lib/index.css'
+import Modal from 'smart-modal-react'
+import 'smart-modal-react/index.css'
 
 function App() {
   const [isOpen, setIsOpen] = useState(false)
@@ -66,4 +70,4 @@ npm run dev
 
 ## 📝 License
 
-MIT
+MIT © Andrii Danichkin

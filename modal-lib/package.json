@@ -1,6 +1,6 @@
 {
-  "name": "modal-lib-by-andrii-danichkin",
-  "version": "1.0.0",
+  "name": "smart-modal-react",
+  "version": "1.0.2",
   "main": "index.js",
   "style": "index.css",
   "files": ["Modal.js", "index.js", "index.css"],

@@ -1,4 +1,5 @@
 import React from "react";
+import { createPortal } from "react-dom";
 import { motion } from "framer-motion";
 
 const modalVariants = {
@@ -43,7 +44,10 @@ const Modal = ({
     return () => document.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  return (
+  const modalRoot = document.getElementById("modal-root");
+  if (!modalRoot) return null;
+
+  return createPortal(
     <div
       id="modal-overlay"
       className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-sm z-50"
@@ -69,7 +73,8 @@ const Modal = ({
         {children}
       </motion.div>
     </div>
-  );
+  ),
+    modalRoot
 };
 
 export default Modal;
