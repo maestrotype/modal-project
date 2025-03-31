@@ -1,6 +1,6 @@
 {
   "name": "smart-modal-react",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "index.js",
   "style": "index.css",
   "files": ["Modal.js", "index.js", "index.css"],
